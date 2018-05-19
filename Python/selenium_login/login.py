@@ -1,9 +1,8 @@
 # Python 3.6.5
 # Logins an example of logging into a website using selenium and configparser.
 
-import confiparser
-import time
-from selenium import webdriver
+import confiparser  # Used to store user/pass outside of login.py
+from selenium import webdriver  # Does the actual navigating/logging in.
 
 
 config = configparser.ConfigParser()
